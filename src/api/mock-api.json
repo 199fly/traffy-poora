@@ -1,0 +1,637 @@
+{
+  "id": "32c1d8fb-5059-4194-9dad-5a4f13832c96",
+  "project_name": "poora-demo",
+  "in_development": true,
+  "form_endpoint": null,
+  "botpoison": null,
+  "domain": null,
+  "global_tags": [
+    {
+      "type": "meta",
+      "attributes": [
+        {
+          "key": "name",
+          "value": "author"
+        },
+        {
+          "key": "content"
+        }
+      ]
+    }
+  ],
+  "navigation": null,
+  "footer": null,
+  "colors": {},
+  "favicon": null,
+  "pages": [
+    {
+      "id": "f7e4167d-ca03-41d4-9ac7-48386a09a3c4",
+      "title": "home",
+      "permalink": "home",
+      "status": "published",
+      "blocks": [
+        {
+          "id": 265,
+          "status": "published",
+          "type": "nav",
+          "name": "nav2",
+          "data": {
+            "logo": {
+              "id": 87,
+              "key": "logo",
+              "alt": null,
+              "value": null,
+              "primitive": "image"
+            },
+            "button": {
+              "id": 31,
+              "url": "#",
+              "label": "Donate Now",
+              "variant": "dark",
+              "key": "button",
+              "destination": "page",
+              "type": "solid",
+              "rounded": false,
+              "primitive": "button"
+            },
+            "email": {
+              "id": 32,
+              "url": "#",
+              "label": "info@gmail.com",
+              "variant": null,
+              "key": "email",
+              "destination": "page",
+              "type": null,
+              "rounded": false,
+              "primitive": "button"
+            },
+            "phone": {
+              "id": 33,
+              "url": "#",
+              "label": "+123 456 7890",
+              "variant": null,
+              "key": "phone",
+              "destination": "external",
+              "type": null,
+              "rounded": false,
+              "primitive": "button"
+            },
+            "links": {
+              "id": 19,
+              "key": "links",
+              "value": [
+                {
+                  "text": "How",
+                  "url": "#how"
+                },
+                {
+                  "text": "What",
+                  "url": "#what"
+                },
+                {
+                  "text": "Who",
+                  "url": "#who"
+                },
+                {
+                  "text": "Us",
+                  "url": "#us"
+                },
+                {
+                  "text": "Start",
+                  "url": "#donate"
+                }
+              ],
+              "parent": null,
+              "primitive": "links"
+            }
+          }
+        },
+        {
+          "id": 242,
+          "status": "published",
+          "type": "hero",
+          "name": "hero2",
+          "data": {
+            "slide1": {
+              "header": {
+                "id": 308,
+                "key": "header",
+                "value": "Join us to save the...",
+                "primitive": "text"
+              },
+              "description": {
+                "id": 309,
+                "key": "description",
+                "value": "Numerous ladyship so raillery humoured goodness received an. So narrow formal length my highly longer afford oh. Tall neat he make.",
+                "primitive": "text"
+              },
+              "background": {
+                "id": 78,
+                "key": "background",
+                "alt": null,
+                "value": null,
+                "primitive": "image"
+              },
+              "button": {
+                "id": 27,
+                "url": "#",
+                "label": "Discover More",
+                "variant": "dark",
+                "key": "button",
+                "destination": "page",
+                "type": "outlined",
+                "rounded": true,
+                "primitive": "button"
+              }
+            },
+            "slide2": {
+              "header": {
+                "id": 310,
+                "key": "header",
+                "value": "Help us to save Homeless People",
+                "primitive": "text"
+              },
+              "description": {
+                "id": 311,
+                "key": "description",
+                "value": "Numerous ladyship so raillery humoured goodness received an. So narrow formal length my highly longer afford oh. Tall neat he make.",
+                "primitive": "text"
+              },
+              "background": {
+                "id": 79,
+                "key": "background",
+                "alt": null,
+                "value": null,
+                "primitive": "image"
+              },
+              "button": {
+                "id": 28,
+                "url": "#",
+                "label": "Discover More",
+                "variant": "dark",
+                "key": "button",
+                "destination": "page",
+                "type": "outlined",
+                "rounded": true,
+                "primitive": "button"
+              }
+            }
+          }
+        },
+        {
+          "id": 245,
+          "status": "published",
+          "type": "row",
+          "name": "row2",
+          "data": {
+            "leftColumn": {
+              "header": {
+                "id": 312,
+                "key": "header",
+                "value": "How Can You Help?",
+                "primitive": "text"
+              },
+              "subheader": {
+                "id": 313,
+                "key": "subheader",
+                "value": "Your support will help us to make life better living for poor vulnerable children.",
+                "primitive": "text"
+              },
+              "description": {
+                "id": 314,
+                "key": "description",
+                "value": "Do however as pleased offence outward beloved by present. By outward neither he so covered amiable greater. Juvenile proposal betrayed he an informed weddings followed. Precaution day see imprudence sympathize principles. At full leaf give quit to in they up. Like seen drew no make fond at on rent. Behaviour extremely her explained situation yet september gentleman.",
+                "primitive": "text"
+              },
+              "cta": {
+                "title": {
+                  "id": 315,
+                  "key": "title",
+                  "value": "Have any question?",
+                  "primitive": "text"
+                },
+                "subtitle": {
+                  "id": 316,
+                  "key": "subtitle",
+                  "value": "Call Now: +123 3456789",
+                  "primitive": "text"
+                }
+              }
+            },
+            "rightColumn": {
+              "text": {
+                "id": 317,
+                "key": "text",
+                "value": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, molestias, odit? Eveniet nobis vel beatae. Sapiente tenetur reiciendis similique, quasi, officiis molestiae, sequi beatae odit quaerat voluptatum autem. Reiciendis, ratione. Behaviour extremely her explained situation yet september gentleman are who. Is thought or pointed hearing he.",
+                "primitive": "text"
+              },
+              "images": [
+                {
+                  "id": 80,
+                  "key": "image1",
+                  "alt": null,
+                  "value": null,
+                  "primitive": "image"
+                },
+                {
+                  "id": 81,
+                  "key": "image2",
+                  "alt": null,
+                  "value": null,
+                  "primitive": "image"
+                }
+              ]
+            },
+            "id": {
+              "id": 349,
+              "key": "id",
+              "value": "#how",
+              "primitive": "text"
+            }
+          }
+        },
+        {
+          "id": 250,
+          "status": "published",
+          "type": "list",
+          "name": "causes2",
+          "data": {
+            "header": {
+              "id": 318,
+              "key": "header",
+              "value": "Recent Causes",
+              "primitive": "text"
+            },
+            "subheader": {
+              "id": 319,
+              "key": "subheader",
+              "value": "Donate to charity causes around the world.",
+              "primitive": "text"
+            },
+            "description": {
+              "id": 320,
+              "key": "description",
+              "value": "Everything melancholy uncommonly but solicitude inhabiting projection off. Connection stimulated estimating excellence an to impression.",
+              "primitive": "text"
+            },
+            "button": {
+              "id": 29,
+              "url": "#",
+              "label": "View All",
+              "variant": "dark",
+              "key": "button",
+              "destination": null,
+              "type": "solid",
+              "rounded": true,
+              "primitive": "button"
+            },
+            "items": [
+              {
+                "date": {
+                  "id": 321,
+                  "key": "date",
+                  "value": "Jul 15, 2020",
+                  "primitive": "text"
+                },
+                "location": {
+                  "id": 322,
+                  "key": "location",
+                  "value": "Mombasa, Africa",
+                  "primitive": "text"
+                },
+                "title": {
+                  "id": 323,
+                  "key": "title",
+                  "value": "Give Education To Africa",
+                  "primitive": "text"
+                },
+                "description": {
+                  "id": 324,
+                  "key": "description",
+                  "value": "Admiration stimulated cultivated reasonable be projection possession of. Real no near room ye bred sake if some. Is arranging furnished knowledge agreeable so. Fanny as smile up small. It vulgar chatty simple months.",
+                  "primitive": "text"
+                },
+                "percentage": {
+                  "id": 10,
+                  "key": "percentage",
+                  "value": 32,
+                  "primitive": "integer"
+                },
+                "raised": {
+                  "id": 325,
+                  "key": "raised",
+                  "value": "$5488 ",
+                  "primitive": "text"
+                },
+                "goal": {
+                  "id": 326,
+                  "key": "goal",
+                  "value": "$12800",
+                  "primitive": "text"
+                },
+                "button": {
+                  "id": 30,
+                  "url": "#",
+                  "label": "Donate Now",
+                  "variant": "light",
+                  "key": "button",
+                  "destination": null,
+                  "type": "solid",
+                  "rounded": true,
+                  "primitive": "button"
+                }
+              }
+            ],
+            "id": {
+              "id": 350,
+              "key": "id",
+              "value": "#what",
+              "primitive": "text"
+            }
+          }
+        },
+        {
+          "id": 253,
+          "status": "published",
+          "type": "form",
+          "name": "newsletter",
+          "data": {
+            "header": {
+              "id": 327,
+              "key": "header",
+              "value": "Become a Volunteer",
+              "primitive": "text"
+            },
+            "decorative": {
+              "id": 328,
+              "key": "decorative",
+              "value": "Volunteer",
+              "primitive": "text"
+            },
+            "subheader": {
+              "id": 329,
+              "key": "subheader",
+              "value": "We’ve funded 120,00 charity projects for 20M people around the world.",
+              "primitive": "text"
+            },
+            "description": {
+              "id": 330,
+              "key": "description",
+              "value": "Replied joy age visitor nothing cottage. Mrs door paid led loud sure easy read. Hastily at perhaps as neither or ye fertile tedious visitor. Use fine bed none call busy dull when. Quiet ought match my right by table means. Principles up do in me favourable affronting. Twenty mother denied effect we to do on.\n\n",
+              "primitive": "text"
+            },
+            "form": {
+              "date_created": "2024-09-19T12:26:22.029Z",
+              "date_updated": null,
+              "id": "b41fac14-4fbb-42de-b609-05c5e5c14d8c",
+              "key": "form",
+              "on_success": null,
+              "redirect_url": null,
+              "schema": [
+                {
+                  "name": "email",
+                  "type": "email",
+                  "required": true,
+                  "placeholder": "Your Email",
+                  "validation": "required",
+                  "width": "100"
+                }
+              ],
+              "sort": null,
+              "status": "draft",
+              "success_message": null,
+              "title": "newsletter",
+              "primitive": "forms"
+            },
+            "id": {
+              "id": 351,
+              "key": "id",
+              "value": "#who",
+              "primitive": "text"
+            }
+          }
+        },
+        {
+          "id": 254,
+          "status": "published",
+          "type": "row",
+          "name": "row3",
+          "data": {
+            "header": {
+              "id": 331,
+              "key": "header",
+              "value": "WHAT WE DO",
+              "primitive": "text"
+            },
+            "subheader": {
+              "id": 332,
+              "key": "subheader",
+              "value": "We Donate to charity causes around the world.",
+              "primitive": "text"
+            },
+            "description": {
+              "id": 333,
+              "key": "description",
+              "value": "Continual say suspicion provision you neglected sir curiosity unwilling. Simplicity end themselves increasing led day sympathize yet. General windows effects not are drawing man garrets.",
+              "primitive": "text"
+            },
+            "features": [
+              {
+                "icon": {
+                  "id": 82,
+                  "key": "icon",
+                  "alt": null,
+                  "value": null,
+                  "primitive": "image"
+                },
+                "title": {
+                  "id": 334,
+                  "key": "title",
+                  "value": "Build & Create",
+                  "primitive": "text"
+                },
+                "description": {
+                  "id": 335,
+                  "key": "description",
+                  "value": "We let the objective of build and create guide us on where to distribute money.",
+                  "primitive": "text"
+                }
+              },
+              {
+                "icon": {
+                  "id": 83,
+                  "key": "icon",
+                  "alt": null,
+                  "value": null,
+                  "primitive": "image"
+                },
+                "title": {
+                  "id": 336,
+                  "key": "title",
+                  "value": "Water Delivery",
+                  "primitive": "text"
+                },
+                "description": {
+                  "id": 337,
+                  "key": "description",
+                  "value": "We help those without water with the resources needed to build clean water supply lines.",
+                  "primitive": "text"
+                }
+              },
+              {
+                "icon": {
+                  "id": 84,
+                  "key": "icon",
+                  "alt": null,
+                  "value": null,
+                  "primitive": "image"
+                },
+                "title": {
+                  "id": 338,
+                  "key": "title",
+                  "value": "Education",
+                  "primitive": "text"
+                },
+                "description": {
+                  "id": 339,
+                  "key": "description",
+                  "value": "We help impoverished youth get the resources they need in order to successfully attend and stay in school.",
+                  "primitive": "text"
+                }
+              }
+            ],
+            "image": {
+              "id": 85,
+              "key": "image",
+              "alt": null,
+              "value": null,
+              "primitive": "image"
+            },
+            "statistics": [
+              {
+                "integer": {
+                  "id": 11,
+                  "key": "integer",
+                  "value": 35,
+                  "primitive": "integer"
+                },
+                "postfix": {
+                  "id": 340,
+                  "key": "postfix",
+                  "value": "+",
+                  "primitive": "text"
+                },
+                "description": {
+                  "id": 341,
+                  "key": "description",
+                  "value": "Years of Foundation",
+                  "primitive": "text"
+                }
+              },
+              {
+                "integer": {
+                  "id": 12,
+                  "key": "integer",
+                  "value": 80,
+                  "primitive": "integer"
+                },
+                "postfix": {
+                  "id": 342,
+                  "key": "postfix",
+                  "value": "%",
+                  "primitive": "text"
+                },
+                "description": {
+                  "id": 343,
+                  "key": "description",
+                  "value": "Percentage example",
+                  "primitive": "text"
+                }
+              }
+            ],
+            "id": {
+              "id": 352,
+              "key": "id",
+              "value": "#us",
+              "primitive": "text"
+            }
+          }
+        },
+        {
+          "id": 262,
+          "status": "published",
+          "type": "item",
+          "name": "donate",
+          "data": {
+            "header": {
+              "id": 344,
+              "key": "header",
+              "value": "Donate Today",
+              "primitive": "text"
+            },
+            "subheader": {
+              "id": 345,
+              "key": "subheader",
+              "value": "Donate today and get involved to save the world",
+              "primitive": "text"
+            },
+            "description": {
+              "id": 346,
+              "key": "description",
+              "value": "Drawings sir gay together landlord had law smallest. Formerly welcomed attended declared met say unlocked. Jennings outlived no dwelling denoting in peculiar as he believed. Behaviour excellent middleton be as it curiosity departure ourselves. For looking two cousins regular amongst.",
+              "primitive": "text"
+            },
+            "callout": {
+              "title": {
+                "id": 347,
+                "key": "title",
+                "value": "Have any question about donation?",
+                "primitive": "text"
+              },
+              "description": {
+                "id": 348,
+                "key": "description",
+                "value": "Call Now: +123 3456789",
+                "primitive": "text"
+              },
+              "icon": {
+                "id": 86,
+                "key": "icon",
+                "alt": null,
+                "value": null,
+                "primitive": "image"
+              }
+            },
+            "payment": {
+              "date_created": "2024-09-19T12:45:41.100Z",
+              "date_updated": null,
+              "id": "c2d93aa3-d5f4-4a5e-8a9a-6aebf019126e",
+              "key": "payment",
+              "on_success": null,
+              "redirect_url": null,
+              "schema": null,
+              "sort": null,
+              "status": "draft",
+              "success_message": null,
+              "title": "payment",
+              "primitive": "forms"
+            },
+            "id": {
+              "id": 353,
+              "key": "id",
+              "value": "#start",
+              "primitive": "text"
+            }
+          }
+        },
+        {
+          "id": 264,
+          "status": "published",
+          "type": "footer",
+          "name": "footer",
+          "data": {}
+        }
+      ]
+    }
+  ]
+}

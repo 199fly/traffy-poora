@@ -1,0 +1,8 @@
+---
+// Import components here as they are added
+import Footer from "./components/Footer/index.astro";
+
+const { id, status, type, name, data } = Astro.props;
+---
+
+{name === "footer" && <Footer {...data} />}

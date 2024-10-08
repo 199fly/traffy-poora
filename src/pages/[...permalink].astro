@@ -1,0 +1,39 @@
+---
+import Render from "./Render.astro";
+import MockApi from "../api/mock-api.json";
+import Header from "./Header.astro";
+import Scripts from "./Scripts.astro";
+
+export async function getStaticPaths() {
+  const ENVIRONMENT = import.meta.env.ENVIRONMENT || "dev";
+  const GET_PRODUCTION = async () => {};
+
+  const GET_MOCK = async () => {
+    const website = MockApi;
+    const PAGES = website?.pages || [];
+    return PAGES.map((page) => ({
+      params: {
+        permalink: page.permalink,
+      },
+      props: { website, page },
+    }));
+  };
+
+  return ENVIRONMENT === "dev" ? await GET_MOCK() : await GET_PRODUCTION();
+}
+
+const { page, website } = Astro.props;
+const { id, title, permalink, status, blocks } = page;
+---
+
+<!doctype html>
+<html lang="en">
+  <Header {...website} />
+  <body class="hibiscus">
+    <!-- Preloader Start -->
+    <div class="se-pre-con"></div>
+    <!-- Preloader Ends -->
+
+    {blocks.map((block) => <Render {...block} />)}
+  </body><Scripts />
+</html>
